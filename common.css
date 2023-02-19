@@ -34,3 +34,9 @@
       fill: #00ff00;
     }
   }
+
+  .word-cloud-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 400px; /* adjust the height as needed */
+  }
