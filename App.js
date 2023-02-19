@@ -70,7 +70,7 @@ const App = () => {
     scale: 1.5 // smaller scale value to bring words closer together
   };
   return (
-    <div className="word-cloud">
+    <div className="word-cloud word-cloud-container">
       <ReactWordcloud words={data} options={options} />
     </div>
   );
